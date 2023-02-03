@@ -17,7 +17,6 @@ body {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(10,1fr);
     row-gap: 10px;
     column-gap: 10px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1189);
@@ -107,7 +106,7 @@ footer {
 }
 
 /* Media Queries  */
-@media screen and (max-width:500px){
+@media screen and (max-width:700px){
     body {
         padding: 0 20px;
     }
